@@ -23,8 +23,6 @@ includes:
 - includes/photoshopcc/site.yml
 - includes/aftereffects/site.yml
 - includes/3dsmax/site.yml
-- includes/alias/site.yml
-- includes/vred/site.yml
 - includes/shotgun/all.yml
 
 engines:
@@ -39,6 +37,4 @@ engines:
   tk-aftereffects: '@aftereffects.site'
   tk-3dsmaxplus: '@3dsmaxplus.site'
   tk-3dsmax: '@3dsmax.site'
-  tk-alias: '@alias.site'
-  tk-vred: '@vred.site'
   tk-shotgun: '@shotgun.all'

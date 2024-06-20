@@ -17,7 +17,6 @@ includes:
 - includes/houdini/shot.yml
 - includes/maya/shot.yml
 - includes/nuke/shot.yml
-- includes/flame/shot.yml
 - includes/shell/shot.yml
 - includes/photoshopcc/shot.yml
 - includes/aftereffects/shot.yml
@@ -30,7 +29,6 @@ engines:
   tk-maya: '@maya.shot'
   tk-nuke: '@nuke.shot'
   tk-nukestudio: '@nukestudio.shot'
-  tk-flame: '@flame.shot'
   tk-shell: '@shell.shot'
   tk-photoshopcc: '@photoshopcc.shot'
   tk-aftereffects: '@aftereffects.shot'

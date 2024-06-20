@@ -40,18 +40,6 @@ common.engines.tk-aftereffects.location:
   type: app_store
   name: tk-aftereffects
   version: v0.3.2
-common.engines.tk-flame.location:
-  type: app_store
-  name: tk-flame
-  version: v1.17.3
-common.engines.tk-alias.location:
-  type: app_store
-  name: tk-alias
-  version: v2.1.5
-common.engines.tk-vred.location:
-  type: app_store
-  name: tk-vred
-  version: v2.1.4
 common.engines.tk-desktop.location:
   type: app_store
   name: tk-desktop

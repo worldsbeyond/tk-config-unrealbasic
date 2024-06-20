@@ -35,16 +35,11 @@ nuke.apps.tk-multi-publish2:
     - name: Publish to ShotGrid
       hook: "{self}/publish_file.py:{engine}/tk-multi-publish2/basic/nukestudio_publish_project.py"
       settings: {}
-    - name: Update Flame Clip
-      hook: "{engine}/tk-multi-publish2/basic/nuke_update_flame_clip.py"
-      settings: {}
   location: "@common.apps.tk-multi-publish2.location"
 
 nuke.apps.tk-multi-loader2:
   action_mappings:
     Alembic Cache: [read_node]
-    Flame Render: [read_node]
-    Flame Quicktime: [read_node]
     Image: [read_node]
     Movie: [read_node]
     Nuke Script: [script_import]
@@ -75,8 +70,6 @@ nuke.apps.tk-multi-loader2:
 nukestudio.apps.tk-multi-loader2:
   action_mappings:
     Alembic Cache: [read_node]
-    Flame Render: [read_node, clip_import]
-    Flame Quicktime: [read_node, clip_import]
     Image: [read_node, clip_import]
     Movie: [read_node, clip_import]
     Nuke Script: [script_import]
@@ -113,10 +106,6 @@ nuke.apps.tk-multi-shotgunpanel:
       filters: {published_file_type: Image}
     - actions: [read_node]
       filters: {published_file_type: Movie}
-    - actions: [read_node]
-      filters: {published_file_type: Flame Render}
-    - actions: [read_node]
-      filters: {published_file_type: Flame Quicktime}
     - actions: [script_import]
       filters: {published_file_type: Nuke Script}
     - actions: [open_project]
@@ -149,10 +138,6 @@ nukestudio.apps.tk-multi-shotgunpanel:
       filters: {published_file_type: Image}
     - actions: [read_node, clip_import]
       filters: {published_file_type: Movie}
-    - actions: [read_node, clip_import]
-      filters: {published_file_type: Flame Render}
-    - actions: [read_node, clip_import]
-      filters: {published_file_type: Flame Quicktime}
     - actions: [script_import]
       filters: {published_file_type: Nuke Script}
     - actions: [open_project]

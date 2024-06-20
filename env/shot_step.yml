@@ -17,7 +17,6 @@ includes:
 - includes/houdini/shot_step.yml
 - includes/maya/shot_step.yml
 - includes/nuke/shot_step.yml
-- includes/flame/shot_step.yml
 - includes/shell/shot_step.yml
 - includes/photoshopcc/shot_step.yml
 - includes/aftereffects/shot_step.yml
@@ -30,7 +29,6 @@ engines:
   tk-maya: '@maya.shot_step'
   tk-nuke: '@nuke.shot_step'
   tk-nukestudio: '@nukestudio.shot_step'
-  tk-flame: '@flame.shot_step'
   tk-shell: '@shell.shot_step'
   tk-photoshopcc: '@photoshopcc.shot_step'
   tk-aftereffects: '@aftereffects.shot_step'

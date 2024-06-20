@@ -57,8 +57,4 @@ desktop.project:
   - matches:
     - '*Hiero*'
     name: Editorial Tools
-  - matches:
-      - '*Alias*'
-      - '*VRED*'
-    name: Automotive Tools
   location: "@common.engines.tk-desktop.location"

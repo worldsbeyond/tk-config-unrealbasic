@@ -34,10 +34,4 @@ shotgun.version:
       hook_before_register_command: "{config}/tk-multi-launchapp/before_register_command.py"
       location: "@common.apps.tk-multi-launchapp.location"
 
-    settings.tk-shotgun-launchvredreview:
-      deny_platforms: [ Mac, Linux ]
-      hook_verify_install: "{self}/verify_install.py"
-      hook_launch_publish: "{self}/shotgun_launch_vred.py"
-      location: "@common.apps.tk-shotgun-launchvredreview.location"
-
   location: "@common.engines.tk-shotgun.location"
